@@ -2,8 +2,8 @@
 <Card xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ID>C000000</ID>
   <Type>英雄单位</Type>
-  <Title>双子猎杀者</Title>
-  <Name>LR</Name>
+  <Title>双子猎杀</Title>
+  <Name>L</Name>
   <Attributes>
     <MaxLife>30</MaxLife>
     <MaxEnergy>5</MaxEnergy>

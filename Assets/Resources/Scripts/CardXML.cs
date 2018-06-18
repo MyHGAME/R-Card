@@ -183,7 +183,7 @@ public class Parameter
 [Serializable]
 public class Card
 {
-	public string ID;		//卡牌id
+    public string ID;		//卡牌id
 	public string Type;		//卡牌类型
 	public string Title,Name;		//卡牌称号，名字
 	public CardAttributesSerialization Attributes;		//字符类型的卡牌属性类
@@ -275,6 +275,7 @@ public class XMLOperator<T>
         FileStream fs = new FileStream(FileName, FileMode.Create);
         XmlSerializer serialize = new XmlSerializer(typeof(T));
         serialize.Serialize(fs, Temp);
+        Item = Temp;
         fs.Close();
     }
 }

@@ -110,7 +110,6 @@
     <None Include="Assets\Card\XML\C000000.xml" />
     <None Include="Assets\Map\XML\test.xml" />
     <None Include="Assets\Map\XML\test2.xml" />
-    <None Include="Assets\test.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
