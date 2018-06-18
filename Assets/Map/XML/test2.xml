@@ -1,0 +1,4732 @@
+<?xml version="1.0" encoding="gb2312"?>
+<SerializableMapNodes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PlayerCamps>
+    <string>a</string>
+    <string>b</string>
+    <string>c</string>
+    <string>d</string>
+  </PlayerCamps>
+  <NeutralCamps>
+    <string />
+  </NeutralCamps>
+  <MapNodes>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>19</x>
+        <y>11</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>20</x>
+        <y>11</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>21</x>
+        <y>11</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>22</x>
+        <y>11</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>23</x>
+        <y>11</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>24</x>
+        <y>11</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>25</x>
+        <y>11</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>26</x>
+        <y>11</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>27</x>
+        <y>11</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>28</x>
+        <y>11</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>29</x>
+        <y>11</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>30</x>
+        <y>11</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>30</x>
+        <y>10</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>29</x>
+        <y>10</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>28</x>
+        <y>10</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>27</x>
+        <y>10</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>26</x>
+        <y>10</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>25</x>
+        <y>10</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>24</x>
+        <y>10</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>23</x>
+        <y>10</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>22</x>
+        <y>10</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>21</x>
+        <y>10</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>20</x>
+        <y>10</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>19</x>
+        <y>10</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>19</x>
+        <y>9</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>20</x>
+        <y>9</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>21</x>
+        <y>9</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>22</x>
+        <y>9</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>23</x>
+        <y>8</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>24</x>
+        <y>8</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>25</x>
+        <y>8</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>26</x>
+        <y>8</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>27</x>
+        <y>8</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>28</x>
+        <y>8</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>26</x>
+        <y>9</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>25</x>
+        <y>9</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>24</x>
+        <y>9</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>23</x>
+        <y>9</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>27</x>
+        <y>9</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>28</x>
+        <y>9</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>29</x>
+        <y>9</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>30</x>
+        <y>9</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>29</x>
+        <y>8</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>30</x>
+        <y>8</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>22</x>
+        <y>8</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>21</x>
+        <y>8</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>20</x>
+        <y>8</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>19</x>
+        <y>8</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>19</x>
+        <y>7</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>20</x>
+        <y>7</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>21</x>
+        <y>7</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>22</x>
+        <y>7</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>24</x>
+        <y>7</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>25</x>
+        <y>7</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>26</x>
+        <y>7</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>27</x>
+        <y>7</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>28</x>
+        <y>7</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>29</x>
+        <y>7</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>30</x>
+        <y>7</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>23</x>
+        <y>7</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>21</x>
+        <y>6</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>20</x>
+        <y>6</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>19</x>
+        <y>6</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>22</x>
+        <y>6</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>23</x>
+        <y>6</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>24</x>
+        <y>6</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>25</x>
+        <y>6</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>26</x>
+        <y>6</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>27</x>
+        <y>6</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>28</x>
+        <y>6</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>29</x>
+        <y>6</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>30</x>
+        <y>6</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>30</x>
+        <y>5</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>29</x>
+        <y>5</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>28</x>
+        <y>5</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>27</x>
+        <y>5</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>26</x>
+        <y>5</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>25</x>
+        <y>5</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>24</x>
+        <y>5</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>23</x>
+        <y>5</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>22</x>
+        <y>5</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>21</x>
+        <y>5</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>20</x>
+        <y>5</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>19</x>
+        <y>5</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>20</x>
+        <y>4</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>19</x>
+        <y>4</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>21</x>
+        <y>4</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>22</x>
+        <y>4</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>PlayerCardArea</Area>
+      <Node>
+        <x>24</x>
+        <y>4</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>25</x>
+        <y>4</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>26</x>
+        <y>4</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>27</x>
+        <y>4</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>28</x>
+        <y>4</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>23</x>
+        <y>4</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>29</x>
+        <y>4</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>30</x>
+        <y>4</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>31</x>
+        <y>12</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>31</x>
+        <y>13</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>32</x>
+        <y>13</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>32</x>
+        <y>14</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>32</x>
+        <y>15</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>33</x>
+        <y>15</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>33</x>
+        <y>16</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>33</x>
+        <y>17</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>34</x>
+        <y>17</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>34</x>
+        <y>18</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>34</x>
+        <y>19</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>35</x>
+        <y>19</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>35</x>
+        <y>20</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>35</x>
+        <y>21</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>36</x>
+        <y>21</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>33</x>
+        <y>14</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>32</x>
+        <y>12</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>33</x>
+        <y>13</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>33</x>
+        <y>12</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>34</x>
+        <y>15</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>34</x>
+        <y>16</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>34</x>
+        <y>13</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>34</x>
+        <y>14</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>34</x>
+        <y>12</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>35</x>
+        <y>14</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>35</x>
+        <y>15</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>35</x>
+        <y>16</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>36</x>
+        <y>16</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>36</x>
+        <y>17</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>36</x>
+        <y>18</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>36</x>
+        <y>19</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>37</x>
+        <y>19</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>37</x>
+        <y>20</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>37</x>
+        <y>21</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>36</x>
+        <y>20</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>35</x>
+        <y>18</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>35</x>
+        <y>17</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>35</x>
+        <y>13</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>35</x>
+        <y>12</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>36</x>
+        <y>13</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>36</x>
+        <y>14</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>36</x>
+        <y>15</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>36</x>
+        <y>12</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner />
+      <Area>None</Area>
+      <Node>
+        <x>36</x>
+        <y>11</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>37</x>
+        <y>13</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>37</x>
+        <y>14</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>37</x>
+        <y>15</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>37</x>
+        <y>16</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>37</x>
+        <y>17</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>37</x>
+        <y>18</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>38</x>
+        <y>18</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>37</x>
+        <y>12</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>38</x>
+        <y>12</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>38</x>
+        <y>13</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>38</x>
+        <y>14</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>38</x>
+        <y>15</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>38</x>
+        <y>16</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>38</x>
+        <y>17</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>38</x>
+        <y>19</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>38</x>
+        <y>20</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>38</x>
+        <y>21</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>PlayerCardArea</Area>
+      <Node>
+        <x>34</x>
+        <y>21</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>34</x>
+        <y>20</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>33</x>
+        <y>19</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>33</x>
+        <y>20</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>32</x>
+        <y>19</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>32</x>
+        <y>18</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>33</x>
+        <y>18</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>33</x>
+        <y>21</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>32</x>
+        <y>21</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>32</x>
+        <y>20</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>31</x>
+        <y>20</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>31</x>
+        <y>19</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>31</x>
+        <y>18</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>31</x>
+        <y>17</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>30</x>
+        <y>16</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>31</x>
+        <y>16</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>30</x>
+        <y>15</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>31</x>
+        <y>15</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>31</x>
+        <y>14</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>32</x>
+        <y>16</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>32</x>
+        <y>17</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>31</x>
+        <y>21</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>30</x>
+        <y>19</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>30</x>
+        <y>18</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>30</x>
+        <y>17</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>29</x>
+        <y>17</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>29</x>
+        <y>16</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>29</x>
+        <y>15</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>29</x>
+        <y>14</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>29</x>
+        <y>13</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>30</x>
+        <y>14</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>29</x>
+        <y>12</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>30</x>
+        <y>13</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>29</x>
+        <y>18</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>29</x>
+        <y>19</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>30</x>
+        <y>20</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>a</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>30</x>
+        <y>21</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>29</x>
+        <y>21</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>29</x>
+        <y>20</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>28</x>
+        <y>19</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>28</x>
+        <y>18</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>28</x>
+        <y>17</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>28</x>
+        <y>16</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>27</x>
+        <y>16</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>27</x>
+        <y>15</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>27</x>
+        <y>14</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>28</x>
+        <y>14</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>28</x>
+        <y>15</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>26</x>
+        <y>14</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>26</x>
+        <y>13</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>25</x>
+        <y>13</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>24</x>
+        <y>13</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>24</x>
+        <y>12</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>23</x>
+        <y>13</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>23</x>
+        <y>14</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>23</x>
+        <y>15</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>24</x>
+        <y>15</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>25</x>
+        <y>15</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>25</x>
+        <y>16</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>24</x>
+        <y>14</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>22</x>
+        <y>15</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>19</x>
+        <y>12</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>19</x>
+        <y>13</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>19</x>
+        <y>14</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>19</x>
+        <y>15</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>19</x>
+        <y>16</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>19</x>
+        <y>17</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>19</x>
+        <y>18</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>20</x>
+        <y>19</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>20</x>
+        <y>18</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>20</x>
+        <y>17</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>20</x>
+        <y>16</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>21</x>
+        <y>16</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>23</x>
+        <y>16</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>24</x>
+        <y>16</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>22</x>
+        <y>17</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>21</x>
+        <y>17</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>23</x>
+        <y>17</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>24</x>
+        <y>17</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>25</x>
+        <y>17</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>22</x>
+        <y>16</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>24</x>
+        <y>18</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>23</x>
+        <y>18</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>22</x>
+        <y>18</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>21</x>
+        <y>18</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>25</x>
+        <y>18</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>26</x>
+        <y>17</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>26</x>
+        <y>18</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>27</x>
+        <y>18</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>27</x>
+        <y>17</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>26</x>
+        <y>16</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>26</x>
+        <y>15</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>25</x>
+        <y>14</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>22</x>
+        <y>14</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>21</x>
+        <y>14</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>20</x>
+        <y>14</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>20</x>
+        <y>15</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>21</x>
+        <y>15</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>20</x>
+        <y>13</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>21</x>
+        <y>13</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>22</x>
+        <y>13</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>28</x>
+        <y>13</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>27</x>
+        <y>13</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>31</x>
+        <y>5</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>31</x>
+        <y>9</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>c</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>31</x>
+        <y>7</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner />
+      <Area>None</Area>
+      <Node>
+        <x>32</x>
+        <y>4</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner />
+      <Area>None</Area>
+      <Node>
+        <x>32</x>
+        <y>5</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner />
+      <Area>None</Area>
+      <Node>
+        <x>32</x>
+        <y>6</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner />
+      <Area>None</Area>
+      <Node>
+        <x>32</x>
+        <y>7</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner />
+      <Area>None</Area>
+      <Node>
+        <x>32</x>
+        <y>8</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner />
+      <Area>None</Area>
+      <Node>
+        <x>32</x>
+        <y>9</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner />
+      <Area>None</Area>
+      <Node>
+        <x>32</x>
+        <y>10</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>33</x>
+        <y>10</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>33</x>
+        <y>9</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>33</x>
+        <y>8</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>33</x>
+        <y>7</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>33</x>
+        <y>6</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>33</x>
+        <y>5</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>33</x>
+        <y>4</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner />
+      <Area>None</Area>
+      <Node>
+        <x>33</x>
+        <y>11</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner />
+      <Area>None</Area>
+      <Node>
+        <x>38</x>
+        <y>11</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>34</x>
+        <y>10</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>35</x>
+        <y>10</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>36</x>
+        <y>10</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>37</x>
+        <y>10</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>38</x>
+        <y>10</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>34</x>
+        <y>9</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>35</x>
+        <y>9</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>36</x>
+        <y>9</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>37</x>
+        <y>9</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>38</x>
+        <y>9</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>34</x>
+        <y>8</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>35</x>
+        <y>8</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>36</x>
+        <y>8</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>37</x>
+        <y>8</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>38</x>
+        <y>8</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>34</x>
+        <y>7</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>35</x>
+        <y>7</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>36</x>
+        <y>7</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>37</x>
+        <y>7</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>38</x>
+        <y>7</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>34</x>
+        <y>6</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>35</x>
+        <y>6</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>36</x>
+        <y>6</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>37</x>
+        <y>6</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>38</x>
+        <y>6</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>34</x>
+        <y>5</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>35</x>
+        <y>5</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>36</x>
+        <y>5</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>37</x>
+        <y>5</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>38</x>
+        <y>5</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>34</x>
+        <y>4</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>35</x>
+        <y>4</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>36</x>
+        <y>4</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>37</x>
+        <y>4</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>d</Owner>
+      <Area>PlayerCardArea</Area>
+      <Node>
+        <x>38</x>
+        <y>4</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>28</x>
+        <y>20</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>27</x>
+        <y>20</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>26</x>
+        <y>20</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>25</x>
+        <y>20</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>24</x>
+        <y>20</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>23</x>
+        <y>20</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>22</x>
+        <y>20</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>21</x>
+        <y>20</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>20</x>
+        <y>20</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>19</x>
+        <y>20</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>PlayerCardArea</Area>
+      <Node>
+        <x>18</x>
+        <y>20</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>19</x>
+        <y>19</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>24</x>
+        <y>19</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>28</x>
+        <y>21</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>27</x>
+        <y>21</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>26</x>
+        <y>21</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>25</x>
+        <y>21</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>24</x>
+        <y>21</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>23</x>
+        <y>21</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>22</x>
+        <y>21</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>21</x>
+        <y>21</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>20</x>
+        <y>21</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+    <SerializableMapNode>
+      <Owner>b</Owner>
+      <Area>ActionField</Area>
+      <Node>
+        <x>19</x>
+        <y>21</y>
+      </Node>
+      <Cards>
+        <Owner />
+        <CardID />
+        <EquipmentsID />
+      </Cards>
+      <AmbushCardsID />
+    </SerializableMapNode>
+  </MapNodes>
+</SerializableMapNodes>
