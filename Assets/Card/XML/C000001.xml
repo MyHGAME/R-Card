@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Card xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>C000001</ID>
+  <Type>英雄单位</Type>
+  <Title>巨神</Title>
+  <Name>泰克</Name>
+  <Attributes>
+    <MaxLife>100</MaxLife>
+    <MaxEnergy>5</MaxEnergy>
+    <Attack>50</Attack>
+    <Defence>20</Defence>
+    <AttackDistance>1</AttackDistance>
+    <MovingDistance>1</MovingDistance>
+  </Attributes>
+  <PassiveSkills>
+    <Skill>
+      <Name>绝对抵御</Name>
+      <Cost />
+      <Degree />
+      <Content>受到的攻击伤害减半</Content>
+    </Skill>
+  </PassiveSkills>
+  <CouterSkills>
+    <Skill>
+      <Name>巨盾召唤</Name>
+      <Cost>-1E</Cost>
+      <Degree />
+      <Content>受到伤害前可以在这张卡上加20点的护盾</Content>
+    </Skill>
+  </CouterSkills>
+  <ActiveSkills />
+  <ParameterList />
+</Card>

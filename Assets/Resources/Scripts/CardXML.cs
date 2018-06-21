@@ -103,7 +103,13 @@ public class CardAttributesSerialization
 
 	public CardAttributesSerialization()
 	{
-	}
+        MaxLife = "";
+        MaxEnergy = "";
+        Attack = "";
+        Defence = "";
+        AttackDistance = "";
+        MovingDistance = "";
+    }
 
 	public CardAttributesSerialization(string life,string energy,string attack,string defence,string AD,string MD)
 	{
@@ -121,18 +127,22 @@ public class CardAttributesSerialization
 public class Skill
 {
 	public string Name;
-	public string Cout;
+	public string Cost;
 	public string Degree;
 	public string Content;
 
 	public Skill()
 	{
-	}
+        Name = "";
+        Cost = "";
+        Degree = "";
+        Content = "";
+    }
 
-	public Skill(string name,string cout,string degree,string content)
+	public Skill(string name,string cost,string degree,string content)
 	{
 		Name = name;
-		Cout = cout;
+		Cost = cost;
 		Degree = degree;
 		Content = content;
 	}
@@ -149,6 +159,8 @@ public class KeyValue
 
 	public KeyValue()
 	{
+        Key = "";
+        Value = "";
 	}
 	public KeyValue(string k,string v)
 	{
@@ -166,8 +178,8 @@ public class Parameter
 
 	public Parameter()
 	{
-		
-	}
+        Name = "";
+    }
 
 	public Parameter(string name,params KeyValue[] levels)
 	{
@@ -196,8 +208,12 @@ public class Card
 
 	public Card()
 	{
-		
-	}
+        ID = "";
+        Type = "";
+        Title = "";
+        Name = "";
+        Attributes = new CardAttributesSerialization();
+    }
 
 	public Card(string id,string type,string title,string name = "")
 	{
@@ -277,6 +293,11 @@ public class XMLOperator<T>
         serialize.Serialize(fs, Temp);
         Item = Temp;
         fs.Close();
+    }
+
+    public void WriteXML()
+    {
+        WriteXML(this.Item);
     }
 }
 

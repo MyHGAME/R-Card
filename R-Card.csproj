@@ -13,12 +13,14 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile></CompilerResponseFile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
     <UnityProjectGenerator>VSTU</UnityProjectGenerator>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>5.6.6f2</UnityVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <LangVersion>4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -107,7 +109,10 @@
     <Compile Include="Assets\Resources\Scripts\Skill\SkillUI.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Card\XML\C000000.xml" />
+    <None Include="Assets\Card\XML\C000000.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Assets\Card\XML\C000001.xml" />
     <None Include="Assets\Map\XML\test.xml" />
     <None Include="Assets\Map\XML\test2.xml" />
   </ItemGroup>
