@@ -14,7 +14,7 @@ public class MapManager : MonoBehaviour {
     {
         { Area.ActionField,new List<GameObject>()},
         { Area.CardGroup,new List<GameObject>()},
-        { Area.DrawArea,new List<GameObject>()},
+        { Area.UseCardArea,new List<GameObject>()},
         { Area.FlopArea,new List<GameObject>()},
         { Area.FoldArea,new List<GameObject>()},
         { Area.Hand,new List<GameObject>()},
@@ -50,6 +50,7 @@ public class MapManager : MonoBehaviour {
     // Use this for initialization
     void Start () {
         LoadMap();
+        AddAreaScript();
     }
 
     public void LoadMap()
@@ -59,6 +60,16 @@ public class MapManager : MonoBehaviour {
         GetMapInformation(MapXML.Map);
         NodeInstantiation();
     }
+
+    void AddAreaScript()
+    {
+        GetOwnerArea(Area.CardGroup).AddComponent<CardGroup>().CreatRCardGroup();
+        GetOwnerArea(Area.Hand).AddComponent<Hand>();
+        GetOwnerArea(Area.FoldArea).AddComponent<FoldArea>();
+        foreach (GameObject obj in GetOwnerAreaList(Area.UseCardArea)){ obj.AddComponent<UseCardArea>(); }
+        foreach (GameObject obj in GetOwnerAreaList(Area.FlopArea)){obj.AddComponent<FlopArea>(); }
+    }
+
     //获取活动区域的列表节点
     public int GetPos(int NodeX,int NodeY)
     {
@@ -77,11 +88,11 @@ public class MapManager : MonoBehaviour {
         }
     }
 
-    public GameObject GetHand()
+    public T GetOwnerAreaScript<T>()
     {
-        return null;
+        return GetOwnerArea(Config.config.ScriptToArea[typeof(T)]).GetComponent<T>();
     }
-    
+
     //生成地图节点,临时
     void NodeInstantiation()
     {
@@ -111,6 +122,10 @@ public class MapManager : MonoBehaviour {
             //临时
             obj.GetComponent<AreaBase>().Owner = item.Owner;
         }
+        GameObject hand = GameObject.Find("Hand");
+        hand.GetComponent<AreaBase>().Owner = hand.GetComponent<MapNode>().SerializableMapNode.Owner;
+        Map[Area.Hand].Add(hand);
+
     }
 
     //获取地图信息，边界，长度等
@@ -149,6 +164,33 @@ public class MapManager : MonoBehaviour {
         }
 
 
+    }
+
+    public GameObject GetOwnerArea(Area area)
+    {
+        GameObject result = null;
+        foreach (GameObject obj in Map[area])
+        {
+            if (BattleManager.battleManager.Belong(obj))
+            {
+                result = obj;
+                break;
+            }
+        }
+        return result;
+    }
+
+    public List<GameObject> GetOwnerAreaList(Area area)
+    {
+        List<GameObject> result = new List<GameObject>();
+        foreach (GameObject obj in Map[area])
+        {
+            if (BattleManager.battleManager.Belong(obj))
+            {
+                result.Add(obj);
+            }
+        }
+        return result;
     }
 
     // Update is called once per frame

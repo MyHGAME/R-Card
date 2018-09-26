@@ -29,7 +29,7 @@ public class Event : MonoBehaviour {
     public List<temlate> PassiveCouterLoop = new List<temlate>();
     public EventTemlate CurrentEvent;
     public int EventsNumber = 0;
-    public int PhaseEventAmout = 0;
+    public int PhaseEventCount = 0;
     public float IntervalTime = 1.0f;
     public float CurrentTime = 0;
     //锁住事件，一次只执行一次事件，执行事件时，只有解锁了才能执行其他事件
@@ -54,23 +54,29 @@ public class Event : MonoBehaviour {
         }
     }
 
-    void Init()
+    void Awake()
     {
         Instance = this;
-        CurrentTime = IntervalTime;
-        for (int i = 0; i < Config.config.Phase.Length; i++)
-        {
-            Events.Add(Config.config.Phase[i],new List<EventTemlate>());
-        }
-       EventsNumber = 0;
-       IntervalTime = Config.config.MaxEventIntervalTime;
-       CurrentTime = 0;
+        
     }
 
     // Use this for initialization
 	void Start () {
         Init();
 	}
+
+    void Init()
+    {
+        CurrentTime = IntervalTime;
+        for (int i = 0; i < Config.config.Phase.Length; i++)
+        {
+           
+            Events.Add(Config.config.Phase[i], new List<EventTemlate>());
+        }
+        EventsNumber = 0;
+        IntervalTime = Config.config.MaxEventIntervalTime;
+        CurrentTime = 0;
+    }
 
     void DetectLoop()
     {
@@ -84,12 +90,19 @@ public class Event : MonoBehaviour {
         }
     }
 
+    
+
     void EventLoop()
     {
-        if (PhaseEventAmout == 0) { CurrentEvent = null; return; }
+        if (PhaseEventCount == 0) 
+        { 
+            CurrentEvent = null;
+           
+            return; 
+        }
         if (!EventLock)
         {
-            CurrentEvent = Events[Phase.phase.GetPhase][PhaseEventAmout - 1];
+            CurrentEvent = Events[Phase.phase.GetPhase][PhaseEventCount - 1];
             CurrentTime -= Time.deltaTime;
             if (CurrentTime <= 0)
             {
@@ -144,8 +157,9 @@ public class Event : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-        PhaseEventAmout = Events[Phase.phase.GetPhase].Count;
-        ActionLock = PhaseEventAmout == 0||EventLock ? false : true;
+        if (Phase.phase.GetPhase == "") return;
+        PhaseEventCount = Events[Phase.phase.GetPhase].Count;
+        ActionLock = !((PhaseEventCount == 0) || EventLock);
         DetectLoop();
         EventLoop();
     }

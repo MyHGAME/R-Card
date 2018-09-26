@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R-Card", "R-Card.csproj", "{C84087D4-E2AC-8F18-CB2B-CDD4F09B1972}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R-Card", "Assembly-CSharp.csproj", "{CB3DFF3A-3CCB-B2BB-053A-53A6E76C896C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,12 +9,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C84087D4-E2AC-8F18-CB2B-CDD4F09B1972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C84087D4-E2AC-8F18-CB2B-CDD4F09B1972}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C84087D4-E2AC-8F18-CB2B-CDD4F09B1972}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C84087D4-E2AC-8F18-CB2B-CDD4F09B1972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB3DFF3A-3CCB-B2BB-053A-53A6E76C896C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB3DFF3A-3CCB-B2BB-053A-53A6E76C896C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB3DFF3A-3CCB-B2BB-053A-53A6E76C896C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB3DFF3A-3CCB-B2BB-053A-53A6E76C896C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

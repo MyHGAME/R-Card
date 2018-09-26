@@ -5,7 +5,7 @@ using System;
 
 [Serializable]
 public class Base : MonoBehaviour {
-	private string owner;//标识所属方
+	public string owner;//标识所属方
 
     public string Owner
     {
@@ -20,7 +20,7 @@ public class Base : MonoBehaviour {
         }
     }
 
-    public void SetOwner(string owner)//设置所属方
+    public virtual void SetOwner(string owner)//设置所属方
 	{
 		Owner = owner;
 	}

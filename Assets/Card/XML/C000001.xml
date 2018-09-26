@@ -8,7 +8,7 @@
     <MaxLife>100</MaxLife>
     <MaxEnergy>5</MaxEnergy>
     <Attack>50</Attack>
-    <Defence>20</Defence>
+    <Defence>{n}</Defence>
     <AttackDistance>1</AttackDistance>
     <MovingDistance>1</MovingDistance>
   </Attributes>
@@ -23,11 +23,25 @@
   <CouterSkills>
     <Skill>
       <Name>巨盾召唤</Name>
-      <Cost>-1E</Cost>
+      <Cost>-1能量</Cost>
       <Degree />
-      <Content>受到伤害前可以在这张卡上加20点的护盾</Content>
+      <Content>受到伤害前可以在这张卡上加数值为自身防御力点的护盾</Content>
     </Skill>
   </CouterSkills>
-  <ActiveSkills />
-  <ParameterList />
+  <ActiveSkills>
+    <Skill>
+      <Name>巨盾冲击</Name>
+      <Cost>-1能量</Cost>
+      <Degree>笨拙</Degree>
+      <Content>消耗自己的任意护盾值，对1距离范围内的1个单位造成那个消耗的值</Content>
+    </Skill>
+  </ActiveSkills>
+  <ParameterList>
+    <Parameter>
+      <Name>n</Name>
+      <Level>
+        <等级x>20+5*x</等级x>
+      </Level>
+    </Parameter>
+  </ParameterList>
 </Card>

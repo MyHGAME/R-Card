@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Card xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>C000005</ID>
+  <Type>英雄单位</Type>
+  <Title>沸血巫女</Title>
+  <Name>昭</Name>
+  <Attributes>
+    <MaxLife>{life}</MaxLife>
+    <MaxEnergy>{energy}</MaxEnergy>
+    <Attack>10</Attack>
+    <Defence>0</Defence>
+    <AttackDistance>1</AttackDistance>
+    <MovingDistance>2</MovingDistance>
+  </Attributes>
+  <PassiveSkills>
+    <Skill>
+      <Name>沸血聚能</Name>
+      <Cost />
+      <Degree />
+      <Content>自己回合开始，能量回复损失生命一半的数值</Content>
+    </Skill>
+  </PassiveSkills>
+  <CouterSkills />
+  <ActiveSkills>
+    <Skill>
+      <Name>爆血术</Name>
+      <Cost>-5生命 -5能量</Cost>
+      <Degree>精通</Degree>
+      <Content>对3距离内单位造成它损失的生命值一半+{hurt}的技能伤害，一回合内无法对同一目标使用</Content>
+    </Skill>
+    <Skill>
+      <Name>裂血术</Name>
+      <Cost>-10生命 -10能量</Cost>
+      <Degree>笨拙</Degree>
+      <Content>选择3距离内的英雄单位,回合结束前那个目标当前生命变成本身的{change},回合结束后回复损失的数值</Content>
+    </Skill>
+    <Skill>
+      <Name>汲血术</Name>
+      <Cost>-5能量</Cost>
+      <Degree>笨拙</Degree>
+      <Content>对3距离内的自己的单造成10到{suck}的生命损失并回复那个数值的一半生命</Content>
+    </Skill>
+  </ActiveSkills>
+  <ParameterList>
+    <Parameter>
+      <Name>life</Name>
+      <Level>
+        <等级1>30</等级1>
+        <等级3>40</等级3>
+        <等级5>50</等级5>
+      </Level>
+    </Parameter>
+    <Parameter>
+      <Name>energy</Name>
+      <Level>
+        <等级1>8</等级1>
+        <等级3>16</等级3>
+        <等级5>24</等级5>
+      </Level>
+    </Parameter>
+    <Parameter>
+      <Name>hurt</Name>
+      <Level>
+        <等级1>20</等级1>
+        <等级3>30</等级3>
+        <等级5>50</等级5>
+      </Level>
+    </Parameter>
+    <Parameter>
+      <Name>change</Name>
+      <Level>
+        <等级1>0.7</等级1>
+        <等级3>0.6</等级3>
+        <等级5>0.5</等级5>
+      </Level>
+    </Parameter>
+    <Parameter>
+      <Name>suck</Name>
+      <Level>
+        <等级1>20</等级1>
+        <等级3>30</等级3>
+        <等级5>40</等级5>
+      </Level>
+    </Parameter>
+  </ParameterList>
+</Card>

@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.SceneManagement;
+//卡牌编辑器，需要修改
 public class CardEditor : MonoBehaviour {
     public GameObject Card;
     public CardXML CardXML;
     public int Columns = 2;
-    public float MaxOffsetY = 30f;
+    public float MaxOffsetY = 30f,MaxTextLength = 500;
     public Dictionary<string, string> FundamentalElements = new Dictionary<string, string>()
     {
         {"卡牌编号",""},
@@ -30,13 +32,21 @@ public class CardEditor : MonoBehaviour {
         {"反制技能",new List<Skill>()},
         {"主动技能",new List<Skill>()},
     };
-
-    public List<string> Skill = new List<string>()
+    public Dictionary<string, List<Parameter>> Parameters = new Dictionary<string, List<Parameter>>()
+    {
+        {"等级参数",new List<Parameter>()},
+    };
+    public List<string> SkillDetail = new List<string>()
     {
         {"技能名字"},
         {"技能花费"},
         {"技能程度"},
         {"技能内容"},
+    };
+    public List<string> ParameterDetail = new List<string>()
+    {
+        {"参数名字"},
+        {"等级列表"},
     };
     private Dictionary<string, string> ElementName = new Dictionary<string, string>()
     {
@@ -57,14 +67,15 @@ public class CardEditor : MonoBehaviour {
         {"技能花费","Cost"},
         {"技能程度","Degree"},
         {"技能内容","Content"},
+        {"等级参数","ParameterList"},
+        {"参数名字","Name"},
+        {"等级列表","Level"},
     };
-    public Vector2 scrollPosition;
-    public float ViewHeight;
+    public Vector2 SkillScrollPosition, ParameterScrollPosition;
+    public float SkillScrollViewHeight,ParameterScollHeight;
     // Use this for initialization
     void Start () {
         Card = (GameObject)Instantiate(Config.config.Prefabs["Card"]);
-
-        
     }
 
     
@@ -84,25 +95,26 @@ public class CardEditor : MonoBehaviour {
         }
     }
 
-    void SkillUITemplate(Dictionary<string, List<Skill>> item, float startPosY = 0)
+    void SkillUITemplate(Dictionary<string, List<Skill>> item, float startPosX = 0,float startPosY = 0)
     {
         string[] keys = GetKeys(item);
+        Type type = typeof(Skill);
         //开始滚动视图  
-        scrollPosition = GUI.BeginScrollView(new Rect(0, startPosY, 200, 200), scrollPosition, new Rect(0, 0, Screen.width, item.Count * 30 + ViewHeight),true, true);
+        SkillScrollPosition = GUI.BeginScrollView(new Rect(startPosX, startPosY, MaxTextLength, 200), SkillScrollPosition, new Rect(0, 0, Screen.width, item.Count * 30 + SkillScrollViewHeight), true, true);
         float OffsetY = 0;
         foreach (string key in keys)
         {
             if (GUI.Button(new Rect(0, OffsetY, 100, 30), "+"+key))
             {
                 item[key].Add(new Skill());
-                ViewHeight += Skill.Count * 30;
+                SkillScrollViewHeight += SkillDetail.Count * 30;
             }
             OffsetY += 30;
             List<Skill> DeleteSkill = new List<Skill>();
             foreach (Skill skill in item[key])
             {
-                Type type = typeof(Skill);
-                foreach (string temp in Skill)
+               
+                foreach (string temp in SkillDetail)
                 {
                     if (temp == "技能名字")
                     {
@@ -115,7 +127,7 @@ public class CardEditor : MonoBehaviour {
                     {
                         GUI.Label(new Rect(0, OffsetY, 60, 30), temp);
                     }
-                    string temptext = GUI.TextField(new Rect(70, OffsetY, 200, 30), (string)type.GetField(ElementName[temp]).GetValue(skill));
+                    string temptext = GUI.TextField(new Rect(70, OffsetY, MaxTextLength, 30), (string)type.GetField(ElementName[temp]).GetValue(skill));
                     type.GetField(ElementName[temp]).SetValue(skill, temptext);
                     OffsetY += 30;
                 }
@@ -123,19 +135,88 @@ public class CardEditor : MonoBehaviour {
             foreach (Skill delete in DeleteSkill)
             {
                 item[key].Remove(delete);
-                ViewHeight -= Skill.Count * 30;
+                SkillScrollViewHeight -= SkillDetail.Count * 30;
             }
         }
         //结束滚动视图  
         GUI.EndScrollView();
     }
-   
+
+    void ParametersUITemplate(Dictionary<string,List<Parameter>> item, float startPosX = 0, float startPosY = 0)
+    {
+        ParameterScrollPosition = GUI.BeginScrollView(new Rect(startPosX, startPosY, 200, 200), ParameterScrollPosition, new Rect(0, 0, Screen.width,item.Count*2*90 + ParameterScollHeight), true, true);
+        string[] keys = GetKeys(item);
+        Type type = typeof(Parameter);
+        float OffsetY = 0;
+        foreach (string key in keys)
+        {
+            if (GUI.Button(new Rect(0, OffsetY, 100, 30), "+" + key))
+            {
+                item[key].Add(new Parameter());
+                ParameterScollHeight += 90;
+            }
+            OffsetY += 30;
+            List<Parameter> delparameters = new List<Parameter>();
+            foreach (Parameter parmeter in item[key])
+            {
+                foreach (string temp in ParameterDetail)
+                {
+                    if (temp == "参数名字")
+                    {
+                        if (GUI.Button(new Rect(0, OffsetY, 70, 30), "-" + temp))
+                        {
+                            delparameters.Add(parmeter);
+                            ParameterScollHeight -= 90;
+                        }
+                        string temptext = GUI.TextField(new Rect(70, OffsetY, 200, 30), (string)type.GetField(ElementName[temp]).GetValue(parmeter));
+                        type.GetField(ElementName[temp]).SetValue(parmeter, temptext);
+                    }
+                    else
+                    {
+                        if (GUI.Button(new Rect(0, OffsetY, 60, 30),"+"+temp))
+                        {
+                            parmeter.Level.Add("","");
+                            ParameterScollHeight += 30;
+                        }
+                        OffsetY += 30;
+                        string[] dickeys = GetKeys(parmeter.Level);
+                        foreach (string dickey in dickeys)
+                        {
+                            if (GUI.Button(new Rect(0, OffsetY, 50, 30), "-等级"))
+                            {
+                                parmeter.Level.Remove(dickey);
+                                continue;
+                            }
+                            string tkey = GUI.TextField(new Rect(50, OffsetY, 40, 30), dickey);
+                            string tvalue = GUI.TextField(new Rect(90, OffsetY, 200, 30), parmeter.Level[dickey]);
+                            OffsetY += 30;
+                            parmeter.Level.Remove(dickey);
+                            parmeter.Level.Add(tkey, tvalue);
+                        }
+                    }
+                    OffsetY += 30;
+                }
+            }
+            foreach (Parameter para in delparameters)
+            {
+                item[key].Remove(para);
+            }
+            
+        }
+        GUI.EndScrollView();
+    }
 
     private void OnGUI()
     {
         ElementsUITemplate(FundamentalElements,0, Columns);
         ElementsUITemplate(AttritubesElements,MaxOffsetY*FundamentalElements.Count / Columns,Columns);
-        SkillUITemplate(Skills, MaxOffsetY * (FundamentalElements.Count + AttritubesElements.Count) / Columns);
+        SkillUITemplate(Skills,0, MaxOffsetY * (FundamentalElements.Count + AttritubesElements.Count) / Columns);
+        ParametersUITemplate(Parameters, Screen.width - 200, 80);
+        if (GUI.Button(new Rect(Screen.width - 200, 0, 100, 30), "重置"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+        
         if (GUI.Button(new Rect(Screen.width-100, 0, 100, 30), "保存卡牌"))
         {
             SaveCard();
@@ -143,11 +224,20 @@ public class CardEditor : MonoBehaviour {
         if (GUI.Button(new Rect(Screen.width - 100, 40, 100, 30), "载入卡牌"))
         {
             LoadCard();
-            string[] keys = GetKeys(Skills);
-            ViewHeight = 0;
-            foreach (string key in keys)
+            SkillScrollViewHeight = 0;
+            foreach (string key in Skills.Keys)
             {
-                ViewHeight += Skills[key].Count * Skill.Count * 30;
+                SkillScrollViewHeight += Skills[key].Count * SkillDetail.Count * 30;
+            }
+            ParameterScollHeight = 0;
+            foreach (string key in Parameters.Keys)
+            {
+                ParameterScollHeight += 60 + Parameters[key].Count*60;
+                foreach (Parameter para in Parameters[key])
+                {
+                    ParameterScollHeight += para.Level.Count * 30;
+                }
+
             }
         }
 
@@ -186,7 +276,7 @@ public class CardEditor : MonoBehaviour {
         GetData<Card>(FundamentalElements, card);
         GetData<CardAttributesSerialization>(AttritubesElements, card.Attributes);
         GetData<Card>(Skills, card);
-        
+        GetData<Card>(Parameters, card);
     }
 
     public void LoadCard()
@@ -210,6 +300,7 @@ public class CardEditor : MonoBehaviour {
         SetData<Card>(FundamentalElements, card);
         SetData<CardAttributesSerialization>(AttritubesElements, card.Attributes);
         SetData<Card>(Skills, card);
+        SetData<Card>(Parameters, card);
         CardXML.WriteXML(card);
     }
 	

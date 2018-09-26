@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Card xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>C000003</ID>
+  <Type>英雄单位</Type>
+  <Title>沸血狂战</Title>
+  <Name>血斧</Name>
+  <Attributes>
+    <MaxLife>{life}</MaxLife>
+    <MaxEnergy>0</MaxEnergy>
+    <Attack>{attack}</Attack>
+    <Defence>10</Defence>
+    <AttackDistance>1</AttackDistance>
+    <MovingDistance>3</MovingDistance>
+  </Attributes>
+  <PassiveSkills>
+    <Skill>
+      <Name>沸血战斧</Name>
+      <Cost />
+      <Degree />
+      <Content>攻击-10生命并附加失去生命值的伤害</Content>
+    </Skill>
+  </PassiveSkills>
+  <CouterSkills />
+  <ActiveSkills>
+    <Skill>
+      <Name>嗜血狂欢</Name>
+      <Cost>-10生命</Cost>
+      <Degree>笨拙</Degree>
+      <Content>自己回合结束，生命恢复攻击伤害造成的生命损失数值的{recove}</Content>
+    </Skill>
+    <Skill>
+      <Name>血轮战斧</Name>
+      <Cost>-10生命</Cost>
+      <Degree>笨拙</Degree>
+      <Content>对1距离的所有对方单位这张卡损失生命值+{hurt}点攻击伤害</Content>
+    </Skill>
+  </ActiveSkills>
+  <ParameterList>
+    <Parameter>
+      <Name>life</Name>
+      <Level>
+        <等级1>40</等级1>
+        <等级3>60</等级3>
+        <等级5>80</等级5>
+      </Level>
+    </Parameter>
+    <Parameter>
+      <Name>attack</Name>
+      <Level>
+        <等级1>30</等级1>
+        <等级3>40</等级3>
+        <等级5>60</等级5>
+      </Level>
+    </Parameter>
+    <Parameter>
+      <Name>recove</Name>
+      <Level>
+        <等级1>0.3</等级1>
+        <等级3>0.4</等级3>
+        <等级5>0.5</等级5>
+      </Level>
+    </Parameter>
+    <Parameter>
+      <Name>hurt</Name>
+      <Level>
+        <等级1>10</等级1>
+        <等级3>20</等级3>
+        <等级5>30</等级5>
+      </Level>
+    </Parameter>
+  </ParameterList>
+</Card>

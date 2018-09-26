@@ -2987,7 +2987,7 @@
     </SerializableMapNode>
     <SerializableMapNode>
       <Owner>a</Owner>
-      <Area>DrawArea</Area>
+      <Area>UseCardArea</Area>
       <Node>
         <x>24</x>
         <y>1</y>
@@ -3000,7 +3000,7 @@
     </SerializableMapNode>
     <SerializableMapNode>
       <Owner>a</Owner>
-      <Area>DrawArea</Area>
+      <Area>UseCardArea</Area>
       <Node>
         <x>23</x>
         <y>1</y>
@@ -3013,7 +3013,7 @@
     </SerializableMapNode>
     <SerializableMapNode>
       <Owner>a</Owner>
-      <Area>DrawArea</Area>
+      <Area>UseCardArea</Area>
       <Node>
         <x>25</x>
         <y>1</y>
@@ -3026,7 +3026,7 @@
     </SerializableMapNode>
     <SerializableMapNode>
       <Owner>b</Owner>
-      <Area>DrawArea</Area>
+      <Area>UseCardArea</Area>
       <Node>
         <x>24</x>
         <y>17</y>
@@ -3039,7 +3039,7 @@
     </SerializableMapNode>
     <SerializableMapNode>
       <Owner>b</Owner>
-      <Area>DrawArea</Area>
+      <Area>UseCardArea</Area>
       <Node>
         <x>25</x>
         <y>17</y>
@@ -3052,7 +3052,7 @@
     </SerializableMapNode>
     <SerializableMapNode>
       <Owner>b</Owner>
-      <Area>DrawArea</Area>
+      <Area>UseCardArea</Area>
       <Node>
         <x>23</x>
         <y>17</y>

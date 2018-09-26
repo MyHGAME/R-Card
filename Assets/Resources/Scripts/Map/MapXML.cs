@@ -13,6 +13,10 @@ public class MapXML:XMLOperator<SerializableMapNodes>
         {
             return Item;
         }
+        set
+        {
+            Item = value;
+        }
     }
 
     public MapXML(string name) : base(name)

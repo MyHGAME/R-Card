@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="gb2312"?>
+<SerializableCardGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CardGroupName>test2</CardGroupName>
+  <MainCardIDList>
+    <string>C000000</string>
+    <string>C000000</string>
+    <string>C000001</string>
+    <string>C000001</string>
+    <string>C000000</string>
+    <string>C000001</string>
+    <string>C000000</string>
+    <string>C000001</string>
+    <string>C000000</string>
+  </MainCardIDList>
+  <ReplaceCardIDList />
+</SerializableCardGroup>

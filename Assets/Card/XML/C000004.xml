@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Card xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>C000004</ID>
+  <Type>英雄单位</Type>
+  <Title>沸血神矛</Title>
+  <Name>锐</Name>
+  <Attributes>
+    <MaxLife>{life}</MaxLife>
+    <MaxEnergy>0</MaxEnergy>
+    <Attack>{attack}</Attack>
+    <Defence>0</Defence>
+    <AttackDistance>3</AttackDistance>
+    <MovingDistance>3</MovingDistance>
+  </Attributes>
+  <PassiveSkills>
+    <Skill>
+      <Name>血燃之矛</Name>
+      <Cost />
+      <Degree />
+      <Content>攻击时-5生命并附加损失生命x2倍的攻击伤害，对未被附加灼烧状态英雄单位附加灼烧状态，对已经附加的英雄单位增加灼烧{round}回合 (灼烧：对方回合开始-5生命 持续2回合)</Content>
+    </Skill>
+    <Skill>
+      <Name>泣血之矛</Name>
+      <Cost />
+      <Degree />
+      <Content>攻击成功后恢复{restore}生命值</Content>
+    </Skill>
+  </PassiveSkills>
+  <CouterSkills />
+  <ActiveSkills>
+    <Skill>
+      <Name>穿透神矛</Name>
+      <Cost>-10生命</Cost>
+      <Degree>笨拙</Degree>
+      <Content>选择一个{distance}距离的方向，并对方向内所有单位造成这张卡攻击力一半的攻击伤害</Content>
+    </Skill>
+  </ActiveSkills>
+  <ParameterList>
+    <Parameter>
+      <Name>life</Name>
+      <Level>
+        <等级1>30</等级1>
+        <等级3>40</等级3>
+        <等级5>50</等级5>
+      </Level>
+    </Parameter>
+    <Parameter>
+      <Name>attack</Name>
+      <Level>
+        <等级1>40</等级1>
+        <等级3>60</等级3>
+        <等级5>80</等级5>
+      </Level>
+    </Parameter>
+    <Parameter>
+      <Name>round</Name>
+      <Level>
+        <等级1>1</等级1>
+        <等级3>2</等级3>
+        <等级5>3</等级5>
+      </Level>
+    </Parameter>
+    <Parameter>
+      <Name>restore</Name>
+      <Level>
+        <等级1>10</等级1>
+        <等级3>15</等级3>
+        <等级5>25</等级5>
+      </Level>
+    </Parameter>
+    <Parameter>
+      <Name>distance</Name>
+      <Level>
+        <等级1>3</等级1>
+        <等级3>4</等级3>
+        <等级5>5</等级5>
+      </Level>
+    </Parameter>
+  </ParameterList>
+</Card>

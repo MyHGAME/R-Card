@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Card xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>C000002</ID>
+  <Type>英雄单位</Type>
+  <Title>沸血凶兽</Title>
+  <Name>巨熊</Name>
+  <Attributes>
+    <MaxLife>{life}</MaxLife>
+    <MaxEnergy>0</MaxEnergy>
+    <Attack>{attack}</Attack>
+    <Defence>{defence}</Defence>
+    <AttackDistance>1</AttackDistance>
+    <MovingDistance>2</MovingDistance>
+  </Attributes>
+  <PassiveSkills>
+    <Skill>
+      <Name>血盾</Name>
+      <Cost />
+      <Degree />
+      <Content>对方回合开始，这张卡护盾增加已损失生命的数值，对方回合结束后，这张卡护盾值变为0</Content>
+    </Skill>
+  </PassiveSkills>
+  <CouterSkills />
+  <ActiveSkills>
+    <Skill>
+      <Name>神力熊掌</Name>
+      <Cost>-10生命 未攻击</Cost>
+      <Degree>笨拙</Degree>
+      <Content>选择1距离的单位造成这张卡已损失生命+攻击力的攻击伤害，并增加恢复20点生命，这个回合无法进行攻击</Content>
+    </Skill>
+  </ActiveSkills>
+  <ParameterList>
+    <Parameter>
+      <Name>life</Name>
+      <Level>
+        <等级1>80</等级1>
+        <等级3>100</等级3>
+        <等级5>120</等级5>
+      </Level>
+    </Parameter>
+    <Parameter>
+      <Name>attack</Name>
+      <Level>
+        <等级1>30</等级1>
+        <等级3>50</等级3>
+      </Level>
+    </Parameter>
+    <Parameter>
+      <Name>defence</Name>
+      <Level>
+        <等级1>20</等级1>
+        <等级3>30</等级3>
+        <等级5>40</等级5>
+      </Level>
+    </Parameter>
+  </ParameterList>
+</Card>

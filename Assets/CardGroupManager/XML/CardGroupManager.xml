@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="gb2312"?>
+<SerializableGroupManager xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MainGroupName>test</MainGroupName>
+  <GroupNames>
+    <string>test</string>
+    <string>test2</string>
+    <string>test3</string>
+  </GroupNames>
+</SerializableGroupManager>

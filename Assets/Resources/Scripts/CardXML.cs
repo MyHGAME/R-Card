@@ -189,6 +189,22 @@ public class Parameter
 			Level.Add (levels [i].Key,levels[i].Value);
 		}
 	}
+
+    public string GetParmeterDetail()
+    {
+        string detail = "";
+        string level = "(等级";
+        foreach (string key in Level.Keys)
+        {
+            level += key + "/";
+            detail += Level[key] + "/";
+        }
+        level = level.Remove(level.Length -1);
+        level += ")";
+        detail = detail .Remove(detail.Length -1);
+        detail += level;
+        return detail;
+    }
 }
 
 //卡类
@@ -200,7 +216,7 @@ public class Card
 	public string Title,Name;		//卡牌称号，名字
 	public CardAttributesSerialization Attributes;		//字符类型的卡牌属性类
 	public List<Skill> PassiveSkills = new List<Skill>();		//被动技能
-    public List<Skill> CouterSkills = new List<Skill>();
+    public List<Skill> CouterSkills = new List<Skill>();        //反制技能
 	public List<Skill> ActiveSkills = new List<Skill>();		//主动技能
 	public List<Parameter> ParameterList = new List<Parameter>();
 	public static string Passive = "PassiveSkills";//为了区分主动技能
@@ -245,6 +261,53 @@ public class Card
 	{
 		Attributes = attribute;
 	}
+
+    public string GetCurrentDetail(string detail)
+    {
+        List<string> ParmeterNames = GetParmeterName(detail);
+        foreach (Parameter parmeter in this.ParameterList)
+        {
+            foreach(string name in ParmeterNames)
+            {
+                if (name == parmeter.Name )
+                {
+                    
+                   detail = detail.Replace(name, parmeter.GetParmeterDetail());
+                } 
+            }
+       }
+       detail = detail.Replace("{", "");
+       detail = detail.Replace("}", "");
+       return detail;
+    }
+
+    private List<string> GetParmeterName(string detail)
+    {
+        List<string> ParmeterNames =new List<string>();//一个描述最多十个参数
+        for(int i = 0;i < detail.Length;i++)
+        {
+            if (detail[i] == '{')//需要config配置用什么符号
+            {
+                int j = i + 1;
+                string temp = "";
+                while (detail[j] != '}')
+                {
+                    temp += detail[j];
+                   
+                    j++;
+                }
+               
+                ParmeterNames.Add(temp);
+                i = j;
+            }
+        }
+        return ParmeterNames;
+    }
+
+    public string GetCurrentName()
+    {
+        return Title + " " + Name;
+    }
 }
 //指定好xml文件名称，可以序列化
 public class XMLOperator<T>
@@ -302,7 +365,7 @@ public class XMLOperator<T>
 }
 
 //cardxml，rcard类读取这个来标识卡类
-public class CardXML:XMLOperator<Card>
+public class CardXML : XMLOperator<Card>
 {
     public Card Card
     {
@@ -310,11 +373,17 @@ public class CardXML:XMLOperator<Card>
         {
             return Item;
         }
+        set
+        {
+            Item = value;
+        }
     }
 
     public CardXML(string name) : base(name)
     {
 
     }
+
+
 
 }

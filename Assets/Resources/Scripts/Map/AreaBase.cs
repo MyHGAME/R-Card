@@ -5,7 +5,7 @@ using System;
 
 [Serializable]
 public class AreaBase:Base  {
-    private Area area = Area.None;
+    public Area area = Area.None;
 
     public Area Area
     {

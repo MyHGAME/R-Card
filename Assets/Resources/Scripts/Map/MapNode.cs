@@ -46,7 +46,8 @@ public class MapNode : AreaBase {
 
     // Use this for initialization
     void Start () {
-		
+        SetOwner(serializableMapNode.Owner);
+        Area = serializableMapNode.Area;
 	}
 
 	// Update is called once per frame

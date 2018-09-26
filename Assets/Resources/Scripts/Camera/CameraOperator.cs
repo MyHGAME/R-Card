@@ -5,7 +5,7 @@ using UnityEngine;
 //整体都需要改
 public class CameraOperator : MonoBehaviour {
     public bool EditMode = false;//是否编辑模式
-    public bool PlayerModeInital = false;//玩家模式的镜头初始化
+    public bool PlayerModeInital = true;//玩家模式的镜头初始化
     public float MouseSensitivity = 4f;//灵敏度
     public float MouseWheelSensitivity = 10f;
     public float KeySensitivity = 2.0f;

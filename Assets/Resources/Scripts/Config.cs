@@ -9,7 +9,7 @@ public enum Area{
 	CardGroup,//卡组
 	Hand,//手牌
 	FlopArea,//翻牌区
-    DrawArea,//出牌区
+    UseCardArea,//出牌区
     FoldArea,//弃牌区
     PlayerCardArea,//玩家卡片区域
 
@@ -24,6 +24,9 @@ public class Config : MonoBehaviour {
     public string SpritePath = "Sprite/";
     public string CardPath = "Card/";
     public string MapPath = "Map/";
+    public string CardLibraryPath = "CardLibrary/";
+    public string CardGroupPath = "CardGroup/";
+    public string CardGroupManagerPath = "CardGroupManager/";
     public string XMLPath = "XML/";
     public string XMLFormatName = ".xml";
     public string ImageFormatName = ".png";
@@ -32,6 +35,7 @@ public class Config : MonoBehaviour {
 	public string Attack = "攻击";
 	public string Move = "移动";
     public string[] Phase = { "开始阶段","翻牌阶段","主要阶段","战斗阶段","调整阶段","结束阶段" };
+    public string[] AutoPhase = { "开始阶段", "结束阶段" };
     public float MaxEventIntervalTime = 1.0f;
     public Dictionary<string,string> CardTypeTable = new Dictionary<string, string> ();
     public Dictionary<Type, string> XMLPaths = new Dictionary<Type, string>();
@@ -42,6 +46,19 @@ public class Config : MonoBehaviour {
         {"Background" ,null},
         
     };
+    public Dictionary<Type, Area> ScriptToArea = new Dictionary<Type, Area>() 
+    {
+        {typeof(CardGroup),Area.CardGroup},
+        {typeof(Hand),Area.Hand},
+        {typeof(FoldArea),Area.FoldArea},
+        {typeof(FlopArea),Area.FlopArea},
+        {typeof(UseCardArea),Area.UseCardArea},
+    };
+    public Dictionary<CardGroupType, int> CardGroupMaxCount = new Dictionary<CardGroupType, int>()
+    {
+        {CardGroupType.Main,70},
+        {CardGroupType.Replace,15},
+    };
     //方法1，地图生成，最大地图边界，用来生成地图边界，限制50x50，用空的格子，用来生成地图节点
     //地图节点包括区域说明，
     public int MapMaxX = 50, MapMaxY = 50;
@@ -50,6 +67,7 @@ public class Config : MonoBehaviour {
 
     void Init()
 	{
+        config = this;
         LoadPath = Application.dataPath + "/";
 
         //普通单位，不能升级，可以移动攻击，生命值等于低于0，送去弃牌区
@@ -78,10 +96,28 @@ public class Config : MonoBehaviour {
         CardTypeTable.Add("固体物品", "物品");
         XMLPaths.Add(typeof(Card), CardPath+XMLPath);
         XMLPaths.Add(typeof(SerializableMapNodes), MapPath + XMLPath);
+        XMLPaths.Add(typeof(SerializableCardLibrary), CardLibraryPath + XMLPath);
+        XMLPaths.Add(typeof(SerializableCardGroup), CardGroupPath + XMLPath);
+        XMLPaths.Add(typeof(SerializableGroupManager), CardGroupManagerPath + XMLPath);
         ActionLayer.value = LayerMask.NameToLayer("Action");
+
        // StartCoroutine(LoadPrefab());
         LoadPrefab();
     }
+
+    public string GetCardType(string type)
+    {
+        if (CardTypeTable.ContainsKey(type))
+        {
+            return CardTypeTable[type];
+        }
+        else
+        {
+            return "";
+        }
+    }
+
+  
 
     void LoadPrefab()
     {
@@ -111,15 +147,20 @@ public class Config : MonoBehaviour {
         return SpritePath + CardPath + CardID;
     }
 
+    public Sprite GetCardBackSprite()
+    {
+        return Resources.Load<Sprite>(SpritePath + "CardBack/CardBack");
+    }
+
     public Sprite GetCardSprite(string CardID)
     {
-        return Resources.Load<Sprite>(GetCardSpritePath(CardID));
+        Sprite sprite = Resources.Load<Sprite>(GetCardSpritePath(CardID));
+        return sprite != null ? sprite : Resources.Load<Sprite>(GetCardSpritePath("C000000"));
     }
 
 	void Awake()
 	{
-		config = this;
-		Init ();
+        Init();
 	}
 
 	// Use this for initialization

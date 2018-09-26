@@ -5,7 +5,7 @@ using UnityEngine;
 //对战阶段卡类
 public class RCard : Base 
 {
-	public CardXML Card;//捆绑卡类信息
+	public CardXML CardXML;//捆绑卡类信息
     public SkillBase Skill;//技能类
 	public Area CardArea = Area.None;//区域枚举
     public string CardImagePath;//卡的图片
@@ -17,7 +17,7 @@ public class RCard : Base
     public Dictionary<Area, ResponseAction> ActionTable = new Dictionary<Area, ResponseAction>();
 	public Dictionary<string,bool> Ability = new Dictionary<string, bool>();
 	public Dictionary<string,bool> State = new Dictionary<string, bool>();
-
+    public Sprite CardImage,CardBack;
 	protected virtual void Init()
 	{
 		//委托事件加入，变量初始化
@@ -27,7 +27,7 @@ public class RCard : Base
 		State.Add (Config.config.Appearance, false);
 		State.Add (Config.config.Flop, false);
         ActionTable.Add(Area.Hand, AppearanceOrder);
-
+        
 	}
      
 	public virtual void AppearanceOrder()
@@ -52,12 +52,13 @@ public class RCard : Base
 
 	public virtual void Flop()
 	{
-		//回手牌
+		//翻牌
 	}
 
 	public virtual void ShowCard()
 	{
 		//显示卡牌
+
 	}
 
 
@@ -71,8 +72,13 @@ public class RCard : Base
 	// Use this for initialization
 	void Start () 
 	{
-		
+        CardImage = Config.config.GetCardSprite(CardXML.Card.ID);
+        CardBack = Config.config.GetCardBackSprite();
 	}
-	
+
+    void Update() 
+    {
+
+    }
 
 }
